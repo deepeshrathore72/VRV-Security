@@ -1,0 +1,24 @@
+.AdminPanel {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; /* Primary blue */
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.AdminPanel:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.AdminPanel:active {
+    background-color: #003f7f; /* Even darker blue for active state */
+    transform: scale(0.95); /* Slight shrink effect */
+}
